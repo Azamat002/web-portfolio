@@ -106,14 +106,9 @@ header {
 }
 .project-item{
     overflow: hidden;
-    display: inline-flex;
+    display: inline-grid;
 }
-.project-item .image{
-    float: left;
-}
-.project-item .two-column{
-    float: right;
-}
+
 
 .project-item h3{
     margin-top: 0;
@@ -163,13 +158,11 @@ footer {
 
     .project-item img{
         float: left;
-        margin-right: 20px;
-        width: 40%;
     }
 
-    .job-item{
+    .project-item{
         display: grid;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 3fr;
         column-gap: 20px;
     }
 
