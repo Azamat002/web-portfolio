@@ -164,6 +164,7 @@ footer {
     .project-item img{
         float: left;
         margin-right: 20px;
+        width: 40%;
     }
 
     .job-item{
