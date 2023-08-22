@@ -202,9 +202,15 @@ p {
     text-decoration: solid;
     font-size: 45px;
 }
-/*.year_company a:hover{*/
-/*    text-decoration: solid;*/
-/*}*/
+.text a{
+    text-decoration: none;
+    color: #03a9f4;
+
+}
+.text a:hover{
+    text-decoration: solid;
+    color: red;
+}
 
 .about .box .year_company h5:hover {
     color: #2a7da2;
